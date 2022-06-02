@@ -7,6 +7,6 @@
  */
 
 int main(void) 
-{       printf("Hello New World\n");
+{       printf("Hello World\n");
 	return (0);
 }
