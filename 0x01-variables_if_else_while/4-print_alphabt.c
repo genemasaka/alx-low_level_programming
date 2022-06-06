@@ -1,9 +1,10 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
-*main - function that prints
-*alphabets in lowercase and uppercase
+*main - Function that prints alphabet
+*except 'e' and 'q'
+*
 *Return: Always 0 (Success)
 */
 
@@ -13,13 +14,12 @@ char c;
 
 for (c = 'a'; c <= 'z'; c++)
 {
-putchar(c);
-}
-
-for (c = 'A'; c <= 'Z'; c++)
+if (c != 'e' && c != 'q')
 {
 putchar(c);
 }
+}
 putchar('\n');
+
 return (0);
 }
