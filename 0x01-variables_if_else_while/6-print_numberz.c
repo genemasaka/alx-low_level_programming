@@ -2,21 +2,25 @@
 #include <stdlib.h>
 
 /**
-*main - function that prints numbers 
-*using putchar()
-*
+*main - prints integers using
+*putchar()
 *Return: Always 0 (Success)
 */
 
 int main(void)
 {
-int n;
 
-for (n = 0; n <= 9; n++)
+int c;
+
+for (c = 0; c <= 9; c++)
 {
-int putchar(int n);
+
+int putchar(int c);
+
 }
+
 putchar('\n');
 
 return (0);
+
 }
