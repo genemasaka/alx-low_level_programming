@@ -1,4 +1,4 @@
-#ifdef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
 /**
 *_putchar - function prototype for _putchar
