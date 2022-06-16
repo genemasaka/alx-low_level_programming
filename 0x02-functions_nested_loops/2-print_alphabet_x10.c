@@ -5,19 +5,17 @@
 *@c: character to be printed
 * Return: void
 */
-int _putchar(char c);
-
 void print_alphabet_x10(void)
 {
-int i = 0;
-
-for (i = 0; i <= 10; i++)
+int a, c;
+c = 0;
+while (c < 10)
 {
-char c = 'a';
-for (c = 'a'; c <= 'z'; c++)
+for (a = 'a'; a <= 'z'; a++)
 {
-_putchar(c);
+_putchar(a);
 }
+c++;
 _putchar('\n');
 }
 }
