@@ -1,10 +1,17 @@
 #include "main.h"
-
+/**
+ * _islower - checks if char is lowercase
+ * @c: value to be checked
+ * Return: Always 0
+ */
 int _islower(int c)
 {
-char c;
-for (c = 'a'; c <= 'z'; c++)
+if (c > 'a' && c < 'z')
 {
 return (1);
+}
+else
+{
+return (0);
 }
 }
